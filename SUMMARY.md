@@ -4,5 +4,7 @@
 
 ## irc
 
-* [new](irc/new.md)
+* [new](irc/new/README.md)
+  * [new child](irc/new/new-child.md)
+* [new two](irc/new-two.md)
 
