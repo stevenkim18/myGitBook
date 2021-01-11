@@ -1,10 +1,14 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Who am I?](README.md)
 
 ## irc
 
-* [new](irc/new/README.md)
-  * [new child](irc/new/new-child.md)
-* [new two](irc/new-two.md)
+## ios
+
+* [Fastcampus lecture](ios/fastcampus-lecture.md)
+
+## Coding Test
+
+* [알고리즘 스터디](coding-test/undefined.md)
 

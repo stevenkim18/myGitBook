@@ -1,7 +1,6 @@
-# Initial page
+---
+description: 소개페이지
+---
 
-## gogo
-
-* 1
-* 2
+# Who am I?
 
