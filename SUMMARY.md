@@ -10,7 +10,7 @@
 
 ## Coding Test
 
-* [알고리즘 스터디](coding-test/undefined.md)
-* [이취코테](coding-test/undefined-1/README.md)
-  * [그리디](coding-test/undefined-1/undefined.md)
+* [알고리즘 스터디](coding-test/algo_study.md)
+* [이취코테](coding-test/this_is_coding_test/README.md)
+  * [그리디](coding-test/this_is_coding_test/greedy.md)
 
