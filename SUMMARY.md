@@ -12,4 +12,5 @@
 * [이취코테](coding-test/this_is_coding_test/README.md)
   * [그리디](coding-test/this_is_coding_test/greedy/README.md)
     * [boj\_11047](coding-test/this_is_coding_test/greedy/boj_11047.md)
+    * [boj\_1931](coding-test/this_is_coding_test/greedy/boj_1931.md)
 
