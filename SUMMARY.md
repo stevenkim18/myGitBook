@@ -13,5 +13,6 @@
   * [그리디](coding-test/this_is_coding_test/greedy/README.md)
     * [boj\_11047](coding-test/this_is_coding_test/greedy/boj_11047.md)
     * [boj\_1931](coding-test/this_is_coding_test/greedy/boj_1931.md)
-  * [다이나믹 프로그래밍](coding-test/this_is_coding_test/undefined.md)
+  * [다이나믹 프로그래밍](coding-test/this_is_coding_test/dp/README.md)
+    * [boj\_1463](coding-test/this_is_coding_test/dp/boj_1463.md)
 
