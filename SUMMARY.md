@@ -5,7 +5,8 @@
 ## ios
 
 * [Fastcampus lecture](ios/fastcampus-lecture.md)
-* [swift](ios/swift.md)
+* [swift](ios/swift/README.md)
+  * [optional](ios/swift/optional.md)
 
 ## Coding Test
 
