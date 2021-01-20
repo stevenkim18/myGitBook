@@ -27,6 +27,7 @@ var optionalValue: Int! = 100
 ```
 - 기본 변수처럼 사용 가능
 - `nil`이 그 옵셔널을 접근하려고 하면 오류 발생
+
 ```swift
 optionalValue = nil
 
@@ -84,5 +85,5 @@ print(optionalValue!)
     - 그래서 강제 추출을 하지 않는 것이 좋음.
 
 # 참고
-## 옵셔널 개녕을 정리 잘한 글
+## 옵셔널 개념을 정리 잘한 글
 https://zeddios.tistory.com/16
