@@ -7,6 +7,7 @@
 * [Fastcampus lecture](ios/fastcampus-lecture.md)
 * [swift](ios/swift/README.md)
   * [optional](ios/swift/optional.md)
+  * [struct](ios/swift/struct.md)
 
 ## Coding Test
 
