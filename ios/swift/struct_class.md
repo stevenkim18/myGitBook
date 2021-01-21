@@ -1,13 +1,13 @@
 # struct\_class
 
-## struct
+# struct
 
 * 변수들을 `property`라 함.
 * 함수들을 `method`
 * 값 타입
 * 대부분의 타입은 구조체로 이루어져 있음.
 
-### 예제
+## 예제
 
 ```swift
 import UIKit
@@ -50,11 +50,11 @@ Sample.typeMethod()
 // mutable.typeMethod()
 ```
 
-## class
+# class
 
 * 참조 타입\(주소가 전달 됨\)
 
-### 예제
+## 예제
 
 ```swift
 import UIKit
