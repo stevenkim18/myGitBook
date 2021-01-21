@@ -1,5 +1,3 @@
-# struct\_class
-
 # struct
 
 * 변수들을 `property`라 함.
