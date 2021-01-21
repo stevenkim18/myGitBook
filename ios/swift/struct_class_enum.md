@@ -1,11 +1,13 @@
-# struct
+# struct\_class\_enum
+
+## struct
 
 * 변수들을 `property`라 함.
 * 함수들을 `method`
 * 값 타입
 * 대부분의 타입은 구조체로 이루어져 있음.
 
-## 예제
+### 예제
 
 ```swift
 import UIKit
@@ -48,11 +50,11 @@ Sample.typeMethod()
 // mutable.typeMethod()
 ```
 
-# class
+## class
 
 * 참조 타입\(주소가 전달 됨\)
 
-## 예제
+### 예제
 
 ```swift
 import UIKit
@@ -100,10 +102,13 @@ Sample.typeMethod()
 // mutable.typeProperty = 400
 // mutable.typeMethod()
 ```
-# enum
-- 다른 언어에 비해 강력한 기능들이 많음.
 
-## 예제
+## enum
+
+* 다른 언어에 비해 강력한 기능들이 많음.
+
+### 예제
+
 ```swift
 import UIKit
 
@@ -175,7 +180,7 @@ enum AppleProduct {
     case imac
     case macbook
     case airpod
-    
+
     func printKorean() {
         switch self {
         case .iphone:
@@ -195,3 +200,4 @@ enum AppleProduct {
 AppleProduct.ipad.printKorean()     // 아이패드
 AppleProduct.imac.printKorean()     // 아이맥
 ```
+

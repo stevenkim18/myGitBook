@@ -7,7 +7,7 @@
 * [Fastcampus lecture](ios/fastcampus-lecture.md)
 * [swift](ios/swift/README.md)
   * [optional](ios/swift/optional.md)
-  * [struct\_class](ios/swift/struct_class.md)
+  * [struct\_class\_enum](ios/swift/struct_class_enum.md)
 
 ## Coding Test
 
