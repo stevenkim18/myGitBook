@@ -1,24 +1,28 @@
-# struct
-- 변수들을 `property`라 함.
-- 함수들을 `method`
-- 값 타입
-- 대부분의 타입은 구조체로 이루어져 있음.
+# struct\_class
 
-## 예제
+## struct
+
+* 변수들을 `property`라 함.
+* 함수들을 `method`
+* 값 타입
+* 대부분의 타입은 구조체로 이루어져 있음.
+
+### 예제
+
 ```swift
 import UIKit
 
 struct Sample {
     var mutableProperty: Int = 100
     let immutableProperty: Int = 100
-    
+
     // 타입 프로퍼티
     static var typeProperty: Int = 100
-    
+
     func instanceMethod(){
         print("i method")
     }
-    
+
     static func typeMethod() {
         print("type method")
     }
@@ -46,34 +50,36 @@ Sample.typeMethod()
 // mutable.typeMethod()
 ```
 
-# class 
-- 참조 타입(주소가 전달 됨)
+## class
 
-## 예제
+* 참조 타입\(주소가 전달 됨\)
+
+### 예제
+
 ```swift
 import UIKit
 
 class Sample {
     var mutableProperty: Int = 100
     let immutableProperty: Int = 100
-    
+
     // 타입 프로퍼티
     static var typeProperty: Int = 100
-    
+
     func instanceMethod(){
         print("i method")
     }
-    
+
     // 상속시 재정의 불가
     static func typeMethod() {
         print("type method")
     }
-    
+
     // 상속시 재정의 가능
     class func classMethod() {
         print("type method - class")
     }
-    
+
 }
 
 var mutable: Sample = Sample()
@@ -96,3 +102,4 @@ Sample.typeMethod()
 // mutable.typeProperty = 400
 // mutable.typeMethod()
 ```
+
