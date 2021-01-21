@@ -100,4 +100,98 @@ Sample.typeMethod()
 // mutable.typeProperty = 400
 // mutable.typeMethod()
 ```
+# enum
+- 다른 언어에 비해 강력한 기능들이 많음.
 
+## 예제
+```swift
+import UIKit
+
+enum Weekday {
+    case mon
+    case tue
+    case wed
+    case thu, fri, sat, sun
+}
+
+var day: Weekday = Weekday.mon
+print(day)      // mon
+
+// day 타입이 Weekday 이기 때문에 축약으로 case 만 써도 됨.
+day = .tue
+print(day)      // tue
+
+// 모든 열거형이 오면 defalut를 안해줘도 됨.
+switch day {
+case .mon, .tue, .wed, .thu:
+    print("평일")             // 출력
+case Weekday.fri:
+    print("불금")
+case .sat, .sun:
+    print("주말!")
+}
+
+// c언어 처럼 정수 값을 가질 수도 있음
+enum Fruit: Int {
+    case apple = 0
+    case grape = 1
+    case peach     // 자동으로 2가 할당 됨.
+}
+
+print("apple = \(Fruit.apple)")             // apple
+// rawValue -> 원시값
+print("apple = \(Fruit.apple.rawValue)")    // 0
+print("grape = \(Fruit.grape.rawValue)")    // 1
+print("peach = \(Fruit.peach.rawValue)")    // 2
+
+enum School: String {
+    case primary = "초딩"
+    case middle = "중딩"
+    case high
+}
+
+print("middle = \(School.middle.rawValue)")     // 중딩
+// rawValue가 없으면 case 출력
+print("high = \(School.high.rawValue)")         // high
+
+// rawValue를 통해 초기할 수 있음.
+// 옵셔널 타입이어야 함. 없을 수도 있기 때문
+//let apple: Fruit = Fruit(rawValue: 0)
+let apple: Fruit? = Fruit(rawValue: 0)
+print(apple!.rawValue)      // 0
+
+if let orange: Fruit = Fruit(rawValue: 5) {
+    print("orange = \(orange)")
+}
+else {
+    print("no orange")      // 출력
+}
+
+// 열거형 안에는 메서드도 추가 가능
+
+enum AppleProduct {
+    case iphone
+    case ipad
+    case imac
+    case macbook
+    case airpod
+    
+    func printKorean() {
+        switch self {
+        case .iphone:
+            print("아이폰")
+        case .ipad:
+            print("아이패드")
+        case .imac:
+            print("아이맥")
+        case .macbook:
+            print("맥북")
+        case .airpod:
+            print("에어팟")
+        }
+    }
+}
+
+AppleProduct.ipad.printKorean()     // 아이패드
+AppleProduct.imac.printKorean()     // 아이맥
+```
