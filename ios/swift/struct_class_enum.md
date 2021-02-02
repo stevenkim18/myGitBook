@@ -1,11 +1,13 @@
-# struct
+# struct\_class\_enum
+
+## struct
 
 * 변수들을 `property`라 함.
 * 함수들을 `method`
 * 값 타입
 * 대부분의 타입은 구조체로 이루어져 있음.
 
-## 예제
+### 예제
 
 ```swift
 import UIKit
@@ -48,11 +50,11 @@ Sample.typeMethod()
 // mutable.typeMethod()
 ```
 
-# class
+## class
 
 * 참조 타입\(주소가 전달 됨\)
 
-## 예제
+### 예제
 
 ```swift
 import UIKit
@@ -101,11 +103,11 @@ Sample.typeMethod()
 // mutable.typeMethod()
 ```
 
-# enum
+## enum
 
 * 다른 언어에 비해 강력한 기능들이 많음.
 
-## 예제
+### 예제
 
 ```swift
 import UIKit
@@ -199,17 +201,20 @@ AppleProduct.ipad.printKorean()     // 아이패드
 AppleProduct.imac.printKorean()     // 아이맥
 ```
 
-# class VS struct/enum
-## 차이점
-- 클래스는 참조 타입이라서 메모리 주소를 전달함.
-    - 단일 상속 가능
-    - 애플 프레임워크 대부분은 클래스를 사용
-- 구조체와 열거형은 값 타입이라서 값을 복사하여 전달함.
-    - swift의 기본 자료형은 모두 구조체
-    - swift는 구조체 열거형 사용을 선호
-- 구조체/클래스 사용은 개발자의 선택
+## class VS struct/enum
 
-## 예제
+### 차이점
+
+* 클래스는 참조 타입이라서 메모리 주소를 전달함.
+  * 단일 상속 가능
+  * 애플 프레임워크 대부분은 클래스를 사용
+* 구조체와 열거형은 값 타입이라서 값을 복사하여 전달함.
+  * swift의 기본 자료형은 모두 구조체
+  * swift는 구조체 열거형 사용을 선호
+* 구조체/클래스 사용은 개발자의 선택
+
+### 예제
+
 ```swift
 import UIKit
 
@@ -241,3 +246,4 @@ fourth.property = 2
 print(third.property)       // 2
 print(fourth.property)      // 2
 ```
+
