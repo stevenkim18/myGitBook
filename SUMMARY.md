@@ -19,7 +19,8 @@
   * [다이나믹 프로그래밍](coding-test/this_is_coding_test/dp/README.md)
     * [boj\_1463](coding-test/this_is_coding_test/dp/boj_1463.md)
 
-## Ruby on Rails
+## TIL
 
-* [레일즈 개발환경 구축하기](ruby-on-rails/undefined.md)
+* [Feb](til/feb/README.md)
+  * [210222](til/feb/210222.md)
 
